@@ -24,7 +24,7 @@ function calculatesFarePrice(start, destination) {
     rate = 25;
     return rate
   } else {
-    rate = Math.abs(distanceTravelledInFeet(start, destination)-400)*264;
+    rate = Math.abs(distanceTravelledInFeet(start, destination)-400)*0.02;
     return rate
   }
 }
