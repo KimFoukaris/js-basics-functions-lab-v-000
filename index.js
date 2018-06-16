@@ -9,7 +9,7 @@ function distanceFromHqInFeet(beginningBlock) {
 }
 
 function distanceTravelledInFeet(beginningBlock, endingBlock) {
-  distance = Math.abs(beginningBlock-endingBlock)*264
+  distance = Math.abs(beginningBlock-endingBlock)*264;
   return distance
 }
 ]
