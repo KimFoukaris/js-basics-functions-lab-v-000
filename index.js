@@ -28,7 +28,3 @@ function calculatesFarePrice(start, destination) {
     return rate
   }
 }
-    
-
-  (distanceTravelledInFeet(start, destination)-400)*.02
-}
