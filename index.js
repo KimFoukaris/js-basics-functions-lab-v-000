@@ -1,4 +1,4 @@
-function distanceFromHqInBlocks(beginningBlock, destinationBlock) {
-  distance = Math.abs(beginningBlock-destinationBlock)
+function distanceFromHqInBlocks(beginningBlock, 42) {
+  distance = Math.abs(beginningBlock-42)
   return distance
 }
